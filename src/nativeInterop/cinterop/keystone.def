@@ -1,0 +1,5 @@
+package = keystone
+headers = keystone/keystone.h
+headerFilter = keystone/**
+---
+
