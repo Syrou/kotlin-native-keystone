@@ -34,7 +34,6 @@ kotlin {
             }
         }
         compilations["main"].cinterops {
-            val tlhelp32 by creating
             val keystone by creating {
                 when (preset) {
                     //presets["macosX64"] -> includeDirs("/opt/local/include/SDL2", "/usr/local/include/SDL2")
