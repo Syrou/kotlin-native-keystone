@@ -4,7 +4,7 @@ plugins {
 
 val keystoneDir = projectDir.resolve("src\\nativeInterop\\cinterop\\keystone")
 
-group = "me.fjock"
+group = "syrou.eu"
 version = "1.0-SNAPSHOT"
 
 repositories {
